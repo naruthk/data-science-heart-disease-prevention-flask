@@ -22,7 +22,7 @@ def home():
     return """
            <body>
            <h1>Heart Disease Prediction<h1>
-           </body>"
+           </body>
            """
 
 @app.route("/predict", methods=["GET"])
